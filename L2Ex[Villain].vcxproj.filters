@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="L2Server Handlers">
+      <UniqueIdentifier>{4e39fa9e-8191-4955-adae-9ce7323afd53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="L2Server Handlers\EnterWorldHandler">
+      <UniqueIdentifier>{5a614032-d60d-4443-b184-beb1047490ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="L2Server Handlers\LeaveWorldHandler">
+      <UniqueIdentifier>{aced0500-8424-4cda-baa6-c7e083bcc454}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="L2Server Handlers\HandleDeath">
+      <UniqueIdentifier>{a92e4c81-df9e-4233-88c4-5c0332236a23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="L2Server">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="L2Server\CSocket">
+      <UniqueIdentifier>{3adb768e-7f24-4a95-a5ed-505ad8fdb27a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="L2Server\CCreature">
+      <UniqueIdentifier>{b2f4b76d-e1fb-4070-85cf-4b3a226f6594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="L2Server\CSharedData">
+      <UniqueIdentifier>{047b1e90-798e-4ca6-98c8-379c7a288230}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="L2Server\L2Server">
+      <UniqueIdentifier>{db105422-bd79-47c5-8793-f3c34bde3e67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{3fcd8a40-e42a-4c82-b4dc-903ab8345ee8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{776f85a1-1f1c-427b-af69-0eedbc8bfa38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\L2Ex">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Classes\CVillainEngine">
+      <UniqueIdentifier>{6e8814cd-13c1-4760-a1c6-9805c0823378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\CCacheD">
+      <UniqueIdentifier>{c2a7b55f-3751-4bc0-ace0-0a6d4bb68611}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\CODBC">
+      <UniqueIdentifier>{be1ad615-1a40-45b0-a6f7-c0b2a423008d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GTSocket">
+      <UniqueIdentifier>{b5fe3509-dd1b-475c-b5ec-6fd589cdb0f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\CVillainContainer">
+      <UniqueIdentifier>{c6947c42-53c1-461c-a63c-facff49bf30d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\CUserContainer">
+      <UniqueIdentifier>{15a2f008-ca3d-4da5-b3ab-1c1e45a29fec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include=".\EnterWorldHandler.cpp">
+      <Filter>L2Server Handlers\EnterWorldHandler</Filter>
+    </ClCompile>
+    <ClCompile Include=".\LeaveWorldHandler.cpp">
+      <Filter>L2Server Handlers\LeaveWorldHandler</Filter>
+    </ClCompile>
+    <ClCompile Include=".\L2Ex.cpp">
+      <Filter>Classes\L2Ex</Filter>
+    </ClCompile>
+    <ClCompile Include=".\CVillainEngine.cpp">
+      <Filter>Classes\CVillainEngine</Filter>
+    </ClCompile>
+    <ClCompile Include=".\CCacheD.cpp">
+      <Filter>Classes\CCacheD</Filter>
+    </ClCompile>
+    <ClCompile Include=".\CODBC.cpp">
+      <Filter>Classes\CODBC</Filter>
+    </ClCompile>
+    <ClCompile Include=".\GTSocket.cpp">
+      <Filter>Classes\GTSocket</Filter>
+    </ClCompile>
+    <ClCompile Include=".\CVillainContainer.cpp">
+      <Filter>Classes\CVillainContainer</Filter>
+    </ClCompile>
+    <ClCompile Include=".\UserContainer.cpp">
+      <Filter>Classes\CUserContainer</Filter>
+    </ClCompile>
+    <ClCompile Include=".\DllMain.cpp">
+      <Filter>Classes\L2Ex</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".\HandleDeath.asm">
+      <Filter>L2Server Handlers\HandleDeath</Filter>
+    </None>
+    <None Include=".\CSocket.asm">
+      <Filter>L2Server\CSocket</Filter>
+    </None>
+    <None Include=".\L2Server.asm">
+      <Filter>L2Server\L2Server</Filter>
+    </None>
+    <None Include=".\villain.ini">
+      <Filter>Config</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include=".\HandleDeath.h">
+      <Filter>L2Server Handlers\HandleDeath</Filter>
+    </ClInclude>
+    <ClInclude Include=".\CSocket.h">
+      <Filter>L2Server\CSocket</Filter>
+    </ClInclude>
+    <ClInclude Include=".\CCreature.h">
+      <Filter>L2Server\CCreature</Filter>
+    </ClInclude>
+    <ClInclude Include=".\CSharedData.h">
+      <Filter>L2Server\CSharedData</Filter>
+    </ClInclude>
+    <ClInclude Include=".\L2Server.h">
+      <Filter>L2Server\L2Server</Filter>
+    </ClInclude>
+    <ClInclude Include=".\L2Ex.h">
+      <Filter>Classes\L2Ex</Filter>
+    </ClInclude>
+    <ClInclude Include=".\CVillainEngine.h">
+      <Filter>Classes\CVillainEngine</Filter>
+    </ClInclude>
+    <ClInclude Include=".\CCacheD.h">
+      <Filter>Classes\CCacheD</Filter>
+    </ClInclude>
+    <ClInclude Include=".\CODBC.h">
+      <Filter>Classes\CODBC</Filter>
+    </ClInclude>
+    <ClInclude Include=".\GTSocket.h">
+      <Filter>Classes\GTSocket</Filter>
+    </ClInclude>
+    <ClInclude Include=".\CVillainContainer.h">
+      <Filter>Classes\CVillainContainer</Filter>
+    </ClInclude>
+    <ClInclude Include=".\UserContainer.h">
+      <Filter>Classes\CUserContainer</Filter>
+    </ClInclude>
+    <ClInclude Include=".\DllMain.h" />
+    <ClInclude Include=".\Global.h" />
+  </ItemGroup>
+</Project>
